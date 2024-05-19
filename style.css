@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy';
+  box-sizing: border-box;
+  color: white;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  display: flex;
+}
+.main .right{
+  background-color: black;
+  height: 100%;
+  width: 50%;
+}
+.right nav{
+  height: 50px;
+  width: 100%;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navi{
+  display: flex;
+  gap: 35px;
+}
+nav .social{
+  display: flex;
+  gap: 10px;
+}
+.social i{
+  font-size: 22px;
+}
+.right .textsec{
+  padding: 20px;
+}
+.textsec h1{
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 200;
+  margin-bottom: 10px;
+  color: red;
+}
+.textsec img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 8px;
+}
+.textsec p{
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 5px;
+  padding: 5px;
+
+}
+.textsec a{
+  text-decoration: none;
+}
+.textsec h5{
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(74, 190, 243);
+  cursor: pointer;
+  margin-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+.main .left{
+  background-color: brown;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.lefttop{
+  display: flex;
+  height:50%;
+  width: 100%;
+}
+.lefttop .top-right{
+  height: 100%;
+  width: 50%;
+  background-image: url("https://images.unsplash.com/photo-1634066844026-40a34d6f36c0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.lefttop .top-left{
+  height: 100%;
+  width: 50%;
+  background-image: url("https://media.istockphoto.com/id/1323293793/photo/portrait-of-beautiful-indian-bengali-female-model-in-ethnic-saree-and-jewellery-holding-plate.jpg?s=2048x2048&w=is&k=20&c=mZ75Rr4OwX835t79lg1BkcUAU4J5TAHwy7wPUq82DtU=");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.left .leftbottom{
+  height: 50%;
+  width: 100%;
+ background-color: chocolate;
+}
+.left .leftbottom video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
